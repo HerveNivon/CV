@@ -9,13 +9,17 @@
 \begin{cvparagraph}
 
 %---------------------------------------------------------
-Senior Startup Solutions Architect at Amazon Web Services, helping hundreds of startups onboard, grow and scale with AWS.
+CTO and Co-Founder of Scenario, a platform that assists indie developers and studios in effortlessly creating stunning, custom game assets with speed and artistic consistency.
 
-Hervé is the former CTO of a company that generated business insights from drone imagery leveraging big data processing and machine learning. He has over ten years of experience working on large programs for Fortune\nobreakspace500 companies, leading innovation for Accenture’s Resources France.
+Previously Senior Startup Solutions Architect at Amazon Web Services, aiding hundreds of startups in effectively onboarding, growing, and scaling.
 
-He has a Master’s degree in Computer Science and Software Engineering while teaching algorithmic and programming languages.
+Former CTO of a company specializing in generating business insights from drone imagery using machine learning and big data analytics.
 
-Hervé enjoys excellent food and wine tasting with relatives and close friends, blacksmithing doing or collecting pop art, and everything that involves his young boy --- in particular, building Lego.
+Over ten years of experience, he has worked on large programs for Fortune\nobreakspace500 companies and led innovation for Accenture’s Resources France.
+
+Holds a Master’s degree in Computer Science and Software Engineering, during which he taught algorithmics and programming languages.
+
+Enjoys fine food, cocktails, and wine tasting with family and friends, blacksmithing, collecting and creating pop art, and engaging in activities with his son, especially collecting and building Lego sets.
 \end{cvparagraph}
 
 %---------------------------------------------------------
@@ -31,6 +35,7 @@ Hervé enjoys excellent food and wine tasting with relatives and close friends, 
         \definecolor{redbird}{HTML}{DA291C}
         \definecolor{airware}{HTML}{343641}
         \definecolor{aws}{HTML}{FF9900}
+        \definecolor{scenario}{HTML}{439F97}
         \tikzset{>=|}
 
         % Default chronoloygy tikzset settings
@@ -56,15 +61,14 @@ Hervé enjoys excellent food and wine tasting with relatives and close friends, 
         %   \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.5}}
         %   \event{\decimaldate{25}{12}{2001}}{three}
         % \end{chronology}
-        \begin{chronology}[3]{2007}{2021}{0.85\textwidth}[\textwidth]
+
+        % \begin{chronology}[3]{2007}{2021}{0.85\textwidth}[\textwidth]
+        % Do not start at the true beginning of the experience, not enough space on the chart
+        \begin{chronology}[3]{2011}{2023}{0.85\textwidth}[\textwidth]
             % Accenture milestones
-            \event{2007}{\descriptionstyle{Accenture integration}}
-            \event{\decimaldate{1}{9}{2008}}{\descriptionstyle{Utilities Referent}}
-            \event{\decimaldate{1}{1}{2009}}{\descriptionstyle{iOS Application Development}}
-            \event{\decimaldate{15}{5}{2009}}{\descriptionstyle{1st Major Budget Entrusted}} % As part of Engie by customer directly
             \event{\decimaldate{13}{7}{2011}}{\descriptionstyle{Historical System Replacement}}
-            \event{\decimaldate{1}{5}{2012}}{\descriptionstyle{Architecture Design of Strategic Project}}
-            \event{\decimaldate{1}{9}{2013}}{\descriptionstyle{Indian Delivery Center deployment}}
+            \event{\decimaldate{1}{5}{2012}}{\descriptionstyle{Architecture Design of Strategic Project}} % Box Engie
+            \event{\decimaldate{1}{9}{2013}}{\descriptionstyle{Indian Delivery Center Deployment}}
             \event{\decimaldate{1}{5}{2014}}{\descriptionstyle{1st Place of Innovation Contest}}
             \event{\decimaldate{1}{12}{2014}}{\descriptionstyle{PoC for Drone data processing @ scale}}
             \event{\decimaldate{15}{6}{2015}}{\descriptionstyle{20000+ man.days delivered}}
@@ -80,7 +84,7 @@ Hervé enjoys excellent food and wine tasting with relatives and close friends, 
             \event{\decimaldate{1}{11}{2016}}{\descriptionstyle{Becoming a global company}}
             \event{\decimaldate{1}{5}{2017}}{\descriptionstyle{Breathtaking Deep Learning Results}}
             \event{\decimaldate{1}{9}{2017}}{\descriptionstyle{20+ serverless microservices}}
-            \event{\decimaldate{31}{12}{2017}}{\descriptionstyle{Deep Learning Leap forward}}
+            \event{\decimaldate{31}{12}{2017}}{\descriptionstyle{SOTA on Aerial Imagery recognition}}
             \event{\decimaldate{1}{10}{2018}}{\descriptionstyle{2nd sell of company}}
             \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.5}}
 
@@ -88,8 +92,15 @@ Hervé enjoys excellent food and wine tasting with relatives and close friends, 
             \tikzset{chronevent/.style={fill=aws,draw=none,opacity=0.7}}
             \event{\decimaldate{1}{4}{2020}}{\descriptionstyle{1st EMEA Activate Onboarding}}
             \event{\decimaldate{30}{9}{2020}}{\descriptionstyle{Major Partnership signed}}
-            \event{\decimaldate{15}{1}{2021}}{\descriptionstyle{300+ Startups engaged in 1:1}}
-            \event{\decimaldate{1}{5}{2021}}{\descriptionstyle{Tens public speaking achieved}}
+            \event{\decimaldate{1}{4}{2021}}{\descriptionstyle{Dozen public speaking achieved}}
+            \event{\decimaldate{2}{7}{2021}}{\descriptionstyle{400+ Startups engaged in 1:1}}
+            \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.5}}
+
+            % Scenario milestones
+            \tikzset{chronevent/.style={fill=scenario,draw=none,opacity=0.7}}
+            \event{\decimaldate{1}{12}{2022}}{\descriptionstyle{Beta Scenario GenAI}}
+            \event{\decimaldate{9}{4}{2023}}{\descriptionstyle{5M Images Generated}}
+            \event{\decimaldate{1}{2}{2024}}{\descriptionstyle{2.2K Daily Active Users; 100K Custom Models}}
             \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.5}}
 
             %Periods
@@ -98,8 +109,7 @@ Hervé enjoys excellent food and wine tasting with relatives and close friends, 
             %Set a light default for periods
             \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.2}}
 
-            \event[\decimaldate{3}{1}{2007}]{\decimaldate{31}{8}{2009}}{\descriptionstyle{Analyst}}
-            \event[\decimaldate{1}{9}{2009}]{\decimaldate{31}{8}{2012}}{\descriptionstyle{Consultant}}
+            \event[\decimaldate{1}{1}{2011}]{\decimaldate{31}{8}{2012}}{\descriptionstyle{Consultant}}
             \event[\decimaldate{31}{8}{2012}]{\decimaldate{8}{1}{2016}}{\descriptionstyle{Manager}}
 
             \tikzset{chronevent/.style={fill=redbird,draw=none,opacity=0.2}}
@@ -107,7 +117,11 @@ Hervé enjoys excellent food and wine tasting with relatives and close friends, 
             \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.5}}
 
             \tikzset{chronevent/.style={fill=aws,draw=none,opacity=0.2}}
-            \event[\decimaldate{27}{5}{2019}]{\decimaldate{27}{5}{2021}}{\descriptionstyle{AWS}}
+            \event[\decimaldate{27}{5}{2019}]{\decimaldate{2}{7}{2021}}{\descriptionstyle{AWS}}
+            \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.5}}
+
+            \tikzset{chronevent/.style={fill=scenario,draw=none,opacity=0.2}}
+            \event[\decimaldate{2}{7}{2021}]{\decimaldate{1}{3}{2024}}{\descriptionstyle{Scenario}}
             \tikzset{chronevent/.style={fill=black,draw=none,opacity=0.5}}
         \end{chronology}
         \vspace{0.10cm}
