@@ -33,7 +33,7 @@ If you want to use this simple solution you need [docker](https://www.docker.com
 Then at the root of this repository:
 
 ```shell
-$> docker run -v `pwd`:`pwd` -w `pwd` raabf/latex-versions:texlive2018 make cv
+$> docker run -v `pwd`:`pwd` -w `pwd` raabf/latex-versions:texlive2018 make cv && open dist/cv.pdf
 ```
 
 ## GitHub Actions
